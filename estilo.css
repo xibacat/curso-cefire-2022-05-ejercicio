@@ -8,9 +8,9 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    border: 1pt black solid;
     background-color: white;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 header > div {
@@ -20,11 +20,13 @@ header > div {
     flex-wrap: wrap;
     justify-content: center;
     width: 70%;
-    border: 1pt black solid;
+    margin: auto;
 }
 
 p.headp {
     width: 100px;
+    font-size: large;
+    font-family: cursive;
 }
 
 img.logo {
@@ -49,7 +51,7 @@ nav > p {
     font-family: fantasy;
 }
 
-.headp:link, .headp:visited {
+a.headp:link {
     color: black;
     text-decoration: none;
 }
