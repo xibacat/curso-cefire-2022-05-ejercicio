@@ -5,6 +5,7 @@ html {
 
 header {
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     left: 0;
@@ -43,7 +44,6 @@ p.headp {
 
 nav {
     position: absolute;
-    z-index: -1;
     top: 0;
     left: 0;
     width: 140px;
